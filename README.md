@@ -19,7 +19,7 @@ This is a C# application that demonstrates a simple implementation of blockchain
 
 ### View Entire Blockchain
 - A form with a button to display all the records in the blockchain.
-- Data is presented in a `**DataGridView**` for easy review.
+- Data is presented in a `DataGridView` for easy review.
 
 ## Technical Details
 
@@ -30,11 +30,11 @@ This is a C# application that demonstrates a simple implementation of blockchain
 ### Database
 - **SQL Server** is used to store the blockchain data.
 - Table schema includes the following fields:
-  - `**ID**`: Unique identifier for the block.
-  - `**Hash**`: The block's hash value.
-  - `**Previous Hash**`: The hash value of the previous block.
-  - `**DateTime**`: Timestamp of block creation.
-  - `**Data**`: The data stored in the block.
+  - `ID`: Unique identifier for the block.
+  - `Hash`: The block's hash value.
+  - `Previous Hash`: The hash value of the previous block.
+  - `DateTime`: Timestamp of block creation.
+  - `Data`: The data stored in the block.
 
 ### User Interface
 - Developed using **Windows Forms**.
@@ -76,7 +76,7 @@ This is a C# application that demonstrates a simple implementation of blockchain
   - A reference to the previous block's hash.
 3. The block is saved in the SQL database.
 ## Searching a Block
-  - Input a block `**ID**` to retrieve its details from the database.
+  - Input a block `ID` to retrieve its details from the database.
 ## Viewing the Blockchain
   - Displays all stored blocks in a tabular format using a `DataGridView`.
 ## Technologies Used
