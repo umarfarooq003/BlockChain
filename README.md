@@ -9,7 +9,7 @@ This is a C# application that demonstrates a simple implementation of blockchain
 - The form includes:
   - A readonly **ID** field (auto-incremented).
   - A **data input field** for the information to be stored.
-- On clicking the "Add" button:
+- On clicking the **Add** button:
   - A new block is generated with a timestamp, hash, and reference to the previous block's hash.
   - The block is added to the SQL Server database.
 
@@ -43,7 +43,7 @@ This is a C# application that demonstrates a simple implementation of blockchain
   - `Searching by ID.`
   - `Viewing the entire blockchain.`
 
-## Getting Started
+### Getting Started
 
 1. **Clone the repository**:
    ```bash
@@ -68,12 +68,12 @@ This is a C# application that demonstrates a simple implementation of blockchain
 ## Database
  - `SQL Server` table for storing blockchain data.
 ## How it Works
-## Adding a Block
+### Adding a Block
 1. Enter data in the textbox and click "Add".
 2. A block is created with:
-  - Current data and timestamp.
-  - A hash generated based on the block data.
-  - A reference to the previous block's hash.
+   - Current data and timestamp.
+   - A hash generated based on the block data.
+   - A reference to the previous block's hash.
 3. The block is saved in the SQL database.
 ## Searching a Block
   - Input a block `ID` to retrieve its details from the database.
